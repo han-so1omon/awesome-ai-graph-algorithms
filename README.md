@@ -1,12 +1,6 @@
 # Awesome AI Graph Algorithms (LLM × Graphs) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated **copy-pasteable** awesome list of AI-powered graph algorithms and systems:
-GraphRAG, LLM↔Graph learning, LLM↔Knowledge Graph (KG), graph generation, neural algorithmic graph reasoning, benchmarks, and production systems.
-
-- **Sorted most-recent-first within each section**
-- Includes **Publication date** + **Update date**
-- Adds **Type** (Production/Research), **Task**, **Implementation quality**, and **Used in** (only when concrete)
-
+A curated awesome list of AI-powered graph algorithms and systems:
 ---
 
 ## Legend
