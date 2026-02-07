@@ -1,21 +1,6 @@
 # Awesome AI Graph Algorithms (LLM × Graphs) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated awesome list of AI-powered graph algorithms and systems:
----
-
-## Legend
-
-**Type**
-- ![Production](https://img.shields.io/badge/Type-Production-brightgreen)
-- ![Research](https://img.shields.io/badge/Type-Research-blue)
-
-**Implementation quality (code repo)**
-- ![Maintained](https://img.shields.io/badge/Impl-Maintained-success)
-- ![Unmaintained](https://img.shields.io/badge/Impl-Unmaintained-lightgrey)
-- ![Unknown](https://img.shields.io/badge/Impl-Unknown-lightgrey)
-
-**Tasks**
-- node cls · link pred · graph cls · KG completion · planning · generation · RAG · benchmark · systems
 
 ---
 
