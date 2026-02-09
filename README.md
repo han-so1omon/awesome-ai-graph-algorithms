@@ -88,6 +88,7 @@ A curated awesome list of AI-powered graph algorithms and systems:
 | **LLM-CER (In-context Clustering-based Entity Resolution)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | entity resolution (cluster + LLM) | 2025-06 | 2025-06 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv HTML): https://arxiv.org/html/2506.02509v1 | — |
 | **SemDeDup** | ![Research](https://img.shields.io/badge/Type-Research-blue) | embedding-based semantic dedup | 2023-03 | 2023-03 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv): https://arxiv.org/abs/2303.09540 · OpenReview PDF: https://openreview.net/pdf?id=u96ZBg_Shna | Web-scale dataset curation (as described in paper) |
 | **datasketch** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | sketches (MinHash/LSH) for dedup | 2016-?? | 2026-?? | ![stars](https://img.shields.io/github/stars/ekzhu/datasketch?style=social) ![last](https://img.shields.io/github/last-commit/ekzhu/datasketch) | Code: https://github.com/ekzhu/datasketch · LSHBloom docs: https://ekzhu.com/datasketch/lshbloom.html | — |
+| **DuDe (Duplicate Detection Toolkit)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | entity resolution / duplicate detection (semantic dedup) | 2010-?? | — | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Project: https://hpi.de/naumann/projects/data-integration-data-quality-and-data-cleansing/dude.html · Paper (QDB’10 PDF): https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/naumann/publications/2010/DuDe_-_The_Duplicate_Detection_Toolkit_cr.pdf | — |
 
 ---
 
@@ -150,6 +151,7 @@ A curated awesome list of AI-powered graph algorithms and systems:
 | **PyTorch Geometric** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | GNN framework | 2026-?? | ![stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social) ![last](https://img.shields.io/github/last-commit/pyg-team/pytorch_geometric) | https://github.com/pyg-team/pytorch_geometric |
 | **DGL** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | GNN framework | 2026-?? | ![stars](https://img.shields.io/github/stars/dmlc/dgl?style=social) ![last](https://img.shields.io/github/last-commit/dmlc/dgl) | https://github.com/dmlc/dgl |
 | **NetworkX** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | classic graph algorithms | 2026-?? | ![stars](https://img.shields.io/github/stars/networkx/networkx?style=social) ![last](https://img.shields.io/github/last-commit/networkx/networkx) | https://github.com/networkx/networkx |
+| **FAISS** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | vector similarity search / ANN (GraphRAG + dedup primitive) | 2026-?? | ![stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social) ![last](https://img.shields.io/github/last-commit/facebookresearch/faiss) | https://github.com/facebookresearch/faiss · Docs: https://faiss.ai/ 
 
 ---
 
