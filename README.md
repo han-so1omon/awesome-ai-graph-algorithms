@@ -8,6 +8,7 @@ A curated awesome list of AI-powered graph algorithms and systems:
 - [GraphRAG and Graph-Indexed RAG](#graphrag-and-graph-indexed-rag)
 - [LLM ↔ Graph Learning](#llm--graph-learning)
 - [LLM ↔ Knowledge Graph (KG)](#llm--knowledge-graph-kg)
+- [Graph Storage and Compression (AI-informed dedup)](#graph-storage-and-compression-ai-informed-dedup)
 - [Graph Reasoning Agents and Tool Use](#graph-reasoning-agents-and-tool-use)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
 - [Graph Generation (LLM / Agents / Diffusion)](#graph-generation-llm--agents--diffusion)
@@ -67,6 +68,26 @@ A curated awesome list of AI-powered graph algorithms and systems:
 | **DistMult** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | KG completion | 2015 | — | — | Paper: https://arxiv.org/abs/1412.6575 | — |
 | **ComplEx** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | KG completion | 2016 | — | — | Paper: https://arxiv.org/abs/1606.06357 | — |
 | **RotatE** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | KG completion | 2019 | — | — | Paper: https://arxiv.org/abs/1902.10197 | — |
+
+---
+
+## Graph Storage and Compression (AI-informed dedup)
+
+| Name | Type | Task | Publication date | Update date | Badges | Links | Used in |
+|---|---|---|---:|---:|---|---|---|
+| **Inference-friendly Graph Compression (IFGC)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | graph compression / GNN inference | 2025-04 | 2025-05 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv): https://arxiv.org/abs/2504.13034 · Paper (PVLDB): https://www.vldb.org/pvldb/vol18/p3203-fan.pdf | — |
+| **Graph Compression for Interpretable GNN Inference at Scale (ExGIS demo)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | graph compression / explainable inference | 2025-?? | 2025-?? | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (PVLDB demo): https://www.vldb.org/pvldb/vol18/p5239-fan.pdf | — |
+| **k-HDTDiffCat (Generate & Update Large HDT RDF KGs on Commodity Hardware)** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | RDF KG compression / incremental updates | 2024-04 | 2026-?? | ![Impl](https://img.shields.io/badge/Impl-Maintained-success) ![stars](https://img.shields.io/github/stars/the-qa-company/qEndpoint?style=social) ![last](https://img.shields.io/github/last-commit/the-qa-company/qEndpoint) | Paper (ESWC’24 PDF): https://2024.eswc-conferences.org/wp-content/uploads/2024/04/146640460.pdf · Code (qEndpoint): https://github.com/the-qa-company/qEndpoint | — |
+| **LSHBloom** | ![Research](https://img.shields.io/badge/Type-Research-blue) | extreme-scale dedup (LSH + Bloom) | 2024-11 | 2024-11 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv): https://arxiv.org/abs/2411.04257 | LLM dataset curation (as described in paper) |
+| **SeqCDC** | ![Research](https://img.shields.io/badge/Type-Research-blue) | CDC / storage dedup acceleration | 2024-12 | 2024-12 | ![Impl](https://img.shields.io/badge/Impl-Maintained-success) ![stars](https://img.shields.io/github/stars/UWASL/dedup-bench?style=social) ![last](https://img.shields.io/github/last-commit/UWASL/dedup-bench) | Paper (Middleware’24 PDF): https://cs.uwaterloo.ca/~alkiswan/papers/SeqCDC_Middleware24.pdf · DOI (ACM): https://dl.acm.org/doi/abs/10.1145/3652892.3700766 · Code (DedupBench): https://github.com/UWASL/dedup-bench | — |
+| **VectorCDC** | ![Research](https://img.shields.io/badge/Type-Research-blue) | CDC / SIMD acceleration | 2025-02 | 2025-02 | ![Impl](https://img.shields.io/badge/Impl-Maintained-success) ![stars](https://img.shields.io/github/stars/UWASL/dedup-bench?style=social) ![last](https://img.shields.io/github/last-commit/UWASL/dedup-bench) | Paper (FAST’25 page): https://www.usenix.org/conference/fast25/presentation/udayashankar · PDF: https://www.usenix.org/system/files/fast25-udayashankar.pdf · Code (DedupBench): https://github.com/UWASL/dedup-bench | — |
+| **Accelerating Data Chunking in Deduplication Systems (follow-up to VectorCDC)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | CDC / chunking acceleration | 2025-08 | 2025-08 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv): https://arxiv.org/abs/2508.05797 | — |
+| **Duplicate Detection with GenAI** | ![Research](https://img.shields.io/badge/Type-Research-blue) | semantic dedup / record matching (LLMs) | 2024-06 | 2024-06 | ![Impl](https://img.shields.io/badge/Impl-Maintained-success) ![stars](https://img.shields.io/github/stars/ianormy/genai_duplicate_detection_paper?style=social) ![last](https://img.shields.io/github/last-commit/ianormy/genai_duplicate_detection_paper) | Paper (arXiv): https://arxiv.org/abs/2406.15483 · Code: https://github.com/ianormy/genai_duplicate_detection_paper | — |
+| **Match, Compare, or Select? (LLM-based Entity Matching strategies)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | entity matching / semantic dedup (LLMs) | 2025-01 | 2025-01 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (COLING’25 PDF): https://aclanthology.org/2025.coling-main.8.pdf | — |
+| **Cross-Dataset Entity Matching with Large & Small LMs (EDBT’25)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | entity matching / cost-quality tradeoffs | 2025-03 | 2025-03 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (EDBT’25 PDF): https://openproceedings.org/2025/conf/edbt/paper-224.pdf | — |
+| **LLM-CER (In-context Clustering-based Entity Resolution)** | ![Research](https://img.shields.io/badge/Type-Research-blue) | entity resolution (cluster + LLM) | 2025-06 | 2025-06 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv HTML): https://arxiv.org/html/2506.02509v1 | — |
+| **SemDeDup** | ![Research](https://img.shields.io/badge/Type-Research-blue) | embedding-based semantic dedup | 2023-03 | 2023-03 | ![Impl](https://img.shields.io/badge/Impl-Unknown-lightgrey) | Paper (arXiv): https://arxiv.org/abs/2303.09540 · OpenReview PDF: https://openreview.net/pdf?id=u96ZBg_Shna | Web-scale dataset curation (as described in paper) |
+| **datasketch** | ![Production](https://img.shields.io/badge/Type-Production-brightgreen) | sketches (MinHash/LSH) for dedup | 2016-?? | 2026-?? | ![stars](https://img.shields.io/github/stars/ekzhu/datasketch?style=social) ![last](https://img.shields.io/github/last-commit/ekzhu/datasketch) | Code: https://github.com/ekzhu/datasketch · LSHBloom docs: https://ekzhu.com/datasketch/lshbloom.html | — |
 
 ---
 
